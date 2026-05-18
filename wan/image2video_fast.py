@@ -1,4 +1,5 @@
 import gc
+import hashlib
 import logging
 import math
 import os
@@ -141,6 +142,17 @@ class WanI2VFast:
             self.sp_size = 1
 
         self.sample_neg_prompt = config.sample_neg_prompt
+
+        # T5 prompt-embedding cache. Same-prompt re-encodes hit this dict
+        # instead of re-running the umt5-xxl encoder (~360 ms/call).
+        # Keyed by sha256(prompt.utf8); value is the list returned by
+        # T5EncoderModel.__call__ (already device-resident). Unbounded;
+        # callers can clear via `pipe.clear_text_cache()` if needed.
+        self._t5_cache: dict[str, list] = {}
+
+    def clear_text_cache(self):
+        """Drop all cached T5 prompt embeddings. Frees ~4 MB per entry."""
+        self._t5_cache.clear()
 
     def prewarm(
         self,
@@ -458,14 +470,22 @@ class WanI2VFast:
         timesteps = self.scheduler.timesteps[timesteps_index]
 
         # preprocess
-        if not self.t5_cpu:
-            self.text_encoder.model.to(self.device)
-            context = self.text_encoder([input_prompt], self.device)
-            if offload_model:
-                self.text_encoder.model.cpu()
+        # T5 cache: skip the encoder entirely if we've seen this exact prompt
+        # before in this pipe instance. Bit-identical: cached tensor is the
+        # same object returned by the prior call.
+        cache_key = hashlib.sha256(input_prompt.encode('utf-8')).hexdigest()
+        if cache_key in self._t5_cache:
+            context = self._t5_cache[cache_key]
         else:
-            context = self.text_encoder([input_prompt], torch.device('cpu'))
-            context = [t.to(self.device) for t in context]
+            if not self.t5_cpu:
+                self.text_encoder.model.to(self.device)
+                context = self.text_encoder([input_prompt], self.device)
+                if offload_model:
+                    self.text_encoder.model.cpu()
+            else:
+                context = self.text_encoder([input_prompt], torch.device('cpu'))
+                context = [t.to(self.device) for t in context]
+            self._t5_cache[cache_key] = context
 
         # cam preparation (only if action_path is provided)
         dit_cond_dict = None
