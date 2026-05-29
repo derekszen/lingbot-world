@@ -1,0 +1,6 @@
+[2026-05-09T21:08:38+08:00] Starting LingBot fast weight download via HF mirror
+[2026-05-09T21:08:38+08:00] HF_ENDPOINT=https://hf-mirror.com
+[33m⚠️  Warning: 'huggingface-cli download' is deprecated. Use 'hf download' instead.[0m
+Fetching 21 files:   0%|          | 0/21 [00:00<?, ?it/s]Fetching 21 files: 100%|██████████| 21/21 [00:00<00:00, 1604.79it/s]
+/mnt/ssd2/Projects/lingbot-world/lingbot-world-base-cam/lingbot_world_fast
+[2026-05-09T21:08:40+08:00] Finished robbyant/lingbot-world-fast

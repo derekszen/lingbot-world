@@ -13,5 +13,12 @@ lingbot-world-fast/
 
 # generated outputs
 output/
+outputs/
 *.mp4
 !assets/*.mp4
+
+# Local checkpoint files.
+*.ckpt
+*.pth
+*.pt
+*.safetensors

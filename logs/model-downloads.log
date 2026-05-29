@@ -1,0 +1,122 @@
+[2026-05-09T15:37:05+08:00] Starting LingBot weight downloads via HF mirror
+[2026-05-09T15:37:05+08:00] HF_ENDPOINT=https://hf-mirror.com
+[33m⚠️  Warning: 'huggingface-cli download' is deprecated. Use 'hf download' instead.[0m
+Fetching 31 files:   0%|          | 0/31 [00:00<?, ?it/s]Downloading 'assets/teaser.png' to 'lingbot-world-base-cam/.cache/huggingface/download/assets/j_d33zCf_5xwuO4H8AgAKj94z1w=.5a5534584d6b2c42ce445930787b6a6784cf9c2d6ed4d1a78c7be3d8e15bed73.incomplete'
+Downloading 'google/umt5-xxl/special_tokens_map.json' to 'lingbot-world-base-cam/.cache/huggingface/download/google/umt5-xxl/ahkChHUJFxEmOdq5GDFEmerRzCY=.14855e7052ffbb595057dfd791d293c1c940db2c.incomplete'
+Downloading '.gitattributes' to 'lingbot-world-base-cam/.cache/huggingface/download/wPaCkH-WbT7GsmxMKKrNZTV4nSM=.8b0d9eae16bff5575e30d3924fe47587563bdaa5.incomplete'
+Downloading 'google/umt5-xxl/spiece.model' to 'lingbot-world-base-cam/.cache/huggingface/download/google/umt5-xxl/vj8E1loknrCNPSP8nWJC234Bff4=.e3909a67b780650b35cf529ac782ad2b6b26e6d1f849d3fbb6a872905f452458.incomplete'
+Downloading 'README.md' to 'lingbot-world-base-cam/.cache/huggingface/download/Xn7B-BWUGOee2Y6hCZtEhtFu4BE=.fb50bc7e806bf934acfde54aec6a0ae7c0bf05ee.incomplete'
+Downloading 'examples/i2v_input.JPG' to 'lingbot-world-base-cam/.cache/huggingface/download/examples/GqO1vCXUoNdTZc6wjxo1L7sjRdI=.077e3d965090c9028c69c00931675f42e1acc815c6eb450ab291b3b72d211a8e.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/assets/teaser.png
+Download complete. Moving file to lingbot-world-base-cam/examples/i2v_input.JPG
+Download complete. Moving file to lingbot-world-base-cam/google/umt5-xxl/spiece.model
+Downloading 'Wan2.1_VAE.pth' to 'lingbot-world-base-cam/.cache/huggingface/download/OZTShqo6Di7rh0SEswnfwSjKa9w=.38071ab59bd94681c686fa51d75a1968f64e470262043be31f7a094e442fd981.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/google/umt5-xxl/special_tokens_map.json
+Downloading 'configuration.json' to 'lingbot-world-base-cam/.cache/huggingface/download/pOL2LEBeNWU9Y3bTUNO_khibHs8=.dc867bf9a56dc745fb98b8cdfee9e69a3ec53926.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/.gitattributes
+Fetching 31 files:   3%|▎         | 1/31 [00:06<03:10,  6.35s/it]Download complete. Moving file to lingbot-world-base-cam/README.md
+Fetching 31 files:   6%|▋         | 2/31 [00:06<01:21,  2.80s/it]Downloading 'google/umt5-xxl/tokenizer.json' to 'lingbot-world-base-cam/.cache/huggingface/download/google/umt5-xxl/HgM_lKo9sdSCfRtVg7MMFS7EKqo=.6e197b4d3dbd71da14b4eb255f4fa91c9c1f2068b20a2de2472967ca3d22602b.incomplete'
+Downloading 'high_noise_model/config.json' to 'lingbot-world-base-cam/.cache/huggingface/download/high_noise_model/8_PA_wEVGiVa2goH2H4KQOQpvVY=.17f02f93c97190f0699126f597268a5337aa6f66.incomplete'
+Downloading 'google/umt5-xxl/tokenizer_config.json' to 'lingbot-world-base-cam/.cache/huggingface/download/google/umt5-xxl/vzaExXFZNBay89bvlQv-ZcI6BTg=.4e1cc1cd85599ce0b47fd0a746af188fe4043ff2.incomplete'
+Downloading 'high_noise_model/diffusion_pytorch_model-00002-of-00008.safetensors' to 'lingbot-world-base-cam/.cache/huggingface/download/high_noise_model/wAl65TR4nv0bKyGEvoGEoerN4iY=.9033d64a17636425f00c4d53cac65b43826748b0622f6623b47d5177d5e73d60.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/google/umt5-xxl/tokenizer.json
+Download complete. Moving file to lingbot-world-base-cam/google/umt5-xxl/tokenizer_config.json
+Download complete. Moving file to lingbot-world-base-cam/high_noise_model/config.json
+Downloading 'high_noise_model/diffusion_pytorch_model-00001-of-00008.safetensors' to 'lingbot-world-base-cam/.cache/huggingface/download/high_noise_model/KNcW1RxDgwaCqO_dewGoRlFzWX8=.0744de948bd3e6e342a0026597a65a29f5ea048cdb3ae855175ba4fd303b3166.incomplete'
+Downloading 'high_noise_model/diffusion_pytorch_model-00003-of-00008.safetensors' to 'lingbot-world-base-cam/.cache/huggingface/download/high_noise_model/cFHePZHmNxCl9BO9E8PqcOH730M=.a292079cbe56414abf0153b2f91ef6609536d3ee6366d81164cc1fc1a10632f4.incomplete'
+Downloading 'high_noise_model/diffusion_pytorch_model-00005-of-00008.safetensors' to 'lingbot-world-base-cam/.cache/huggingface/download/high_noise_model/6ww7vZgtNuIj-mAP1jxHBgpGHcA=.c14ab8ce8b38a6e126b042d1b46a57fe6a59240d521dfb9a998240223a975ec0.incomplete'
+Downloading 'high_noise_model/diffusion_pytorch_model-00004-of-00008.safetensors' to 'lingbot-world-base-cam/.cache/huggingface/download/high_noise_model/oG7zLiQX-czfDb9XU4CMPkqmyAk=.ae1204d744564210813f859d2b7908c836f8ec9e81ccb26a3017f71f5ae3885b.incomplete'
+Downloading 'high_noise_model/diffusion_pytorch_model-00006-of-00008.safetensors' to 'lingbot-world-base-cam/.cache/huggingface/download/high_noise_model/JtQRIhAT4lJ1X1i3nzKQWiVrSus=.04fde20fbbedc6d7dd22ac47b681934060b0979fbe4d65f855a58006a0c9af5a.incomplete'
+'(ReadTimeoutError("HTTPSConnectionPool(host='hf-mirror.com', port=443): Read timed out. (read timeout=10)"), '(Request ID: 1213db4f-7c79-41cb-b017-59b622fe1ef4)')' thrown while requesting GET https://hf-mirror.com/api/resolve-cache/models/robbyant/lingbot-world-base-cam/6fc824ffc338d64c97c77e2eb8c0f4cfc24d82bd/configuration.json
+Retrying in 1s [Retry 1/5].
+Download complete. Moving file to lingbot-world-base-cam/configuration.json
+Downloading 'high_noise_model/diffusion_pytorch_model-00007-of-00008.safetensors' to 'lingbot-world-base-cam/.cache/huggingface/download/high_noise_model/qzDQj8A4IJnlWocysJ6psBpD-CU=.4a4787f4adb6b059971fb951605755b5c7fe68fba3ee1a0f09259063ebf0baa8.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/Wan2.1_VAE.pth
+Fetching 31 files:  10%|▉         | 3/31 [02:42<33:59, 72.83s/it]Downloading 'high_noise_model/diffusion_pytorch_model-00008-of-00008.safetensors' to 'lingbot-world-base-cam/.cache/huggingface/download/high_noise_model/vTPcXjsuoEYRVf9qQo4WEVADLXA=.b0ad49c6f74d03136d8075efb260178ecc765a03cffbae0bde6a3e24b81e772b.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/high_noise_model/diffusion_pytorch_model-00006-of-00008.safetensors
+Downloading 'high_noise_model/diffusion_pytorch_model.safetensors.index.json' to 'lingbot-world-base-cam/.cache/huggingface/download/high_noise_model/VpHHFEQcyqWBKjkjOBMoMr6uTZU=.d4b8648061bca1d64a4bec941cb60d40509fafc7.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/high_noise_model/diffusion_pytorch_model.safetensors.index.json
+Downloading 'low_noise_model/config.json' to 'lingbot-world-base-cam/.cache/huggingface/download/low_noise_model/8_PA_wEVGiVa2goH2H4KQOQpvVY=.17f02f93c97190f0699126f597268a5337aa6f66.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/low_noise_model/config.json
+Downloading 'low_noise_model/diffusion_pytorch_model-00001-of-00008.safetensors' to 'lingbot-world-base-cam/.cache/huggingface/download/low_noise_model/KNcW1RxDgwaCqO_dewGoRlFzWX8=.24efbd628da83f0de8ca67341040b8bf0f99701608833a76c81cbdc20cb70112.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/high_noise_model/diffusion_pytorch_model-00005-of-00008.safetensors
+Downloading 'low_noise_model/diffusion_pytorch_model-00002-of-00008.safetensors' to 'lingbot-world-base-cam/.cache/huggingface/download/low_noise_model/wAl65TR4nv0bKyGEvoGEoerN4iY=.64bf51f90cef333885761d342c3bd72c9ac230b78178206b35333e9adc2f90f1.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/high_noise_model/diffusion_pytorch_model-00003-of-00008.safetensors
+Downloading 'low_noise_model/diffusion_pytorch_model-00003-of-00008.safetensors' to 'lingbot-world-base-cam/.cache/huggingface/download/low_noise_model/cFHePZHmNxCl9BO9E8PqcOH730M=.8e16ec321bfcf3e46bed7a6bc8b2fbfc266f5eef730c8405fc906c66a98b1beb.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/low_noise_model/diffusion_pytorch_model-00001-of-00008.safetensors
+Downloading 'low_noise_model/diffusion_pytorch_model-00004-of-00008.safetensors' to 'lingbot-world-base-cam/.cache/huggingface/download/low_noise_model/oG7zLiQX-czfDb9XU4CMPkqmyAk=.8352c8ab975f05d2abfb5c9d543446556f2d123641141d55a6f93b8deb2beb02.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/low_noise_model/diffusion_pytorch_model-00004-of-00008.safetensors
+Downloading 'low_noise_model/diffusion_pytorch_model-00005-of-00008.safetensors' to 'lingbot-world-base-cam/.cache/huggingface/download/low_noise_model/6ww7vZgtNuIj-mAP1jxHBgpGHcA=.155f4882d2543a3890b53f51f6fab7f8126e9ff64b22cde68d62a7d6de08c2f0.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/low_noise_model/diffusion_pytorch_model-00002-of-00008.safetensors
+Downloading 'low_noise_model/diffusion_pytorch_model-00006-of-00008.safetensors' to 'lingbot-world-base-cam/.cache/huggingface/download/low_noise_model/JtQRIhAT4lJ1X1i3nzKQWiVrSus=.f5de24800c92d8ebf03ef69c0afaaf607afeba30724371124e4a780eca7902fb.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/high_noise_model/diffusion_pytorch_model-00008-of-00008.safetensors
+Downloading 'low_noise_model/diffusion_pytorch_model-00007-of-00008.safetensors' to 'lingbot-world-base-cam/.cache/huggingface/download/low_noise_model/qzDQj8A4IJnlWocysJ6psBpD-CU=.2ec6a4bb1fe394d75104495ea765a1fbc9ac72d2091da8d21ea06aeeb3448dd2.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/low_noise_model/diffusion_pytorch_model-00003-of-00008.safetensors
+Downloading 'low_noise_model/diffusion_pytorch_model-00008-of-00008.safetensors' to 'lingbot-world-base-cam/.cache/huggingface/download/low_noise_model/vTPcXjsuoEYRVf9qQo4WEVADLXA=.3f703d62efcb7d4afc2a080173ecc3bdcd867e02711fffb7a859ec6505d84d25.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/high_noise_model/diffusion_pytorch_model-00004-of-00008.safetensors
+Downloading 'low_noise_model/diffusion_pytorch_model.safetensors.index.json' to 'lingbot-world-base-cam/.cache/huggingface/download/low_noise_model/VpHHFEQcyqWBKjkjOBMoMr6uTZU=.d4b8648061bca1d64a4bec941cb60d40509fafc7.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/low_noise_model/diffusion_pytorch_model.safetensors.index.json
+Downloading 'models_t5_umt5-xxl-enc-bf16.pth' to 'lingbot-world-base-cam/.cache/huggingface/download/7xjTyx9p9-CteGiI3VEINu_Ohx0=.7cace0da2b446bbbbc57d031ab6cf163a3d59b366da94e5afe36745b746fd81d.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/low_noise_model/diffusion_pytorch_model-00005-of-00008.safetensors
+Download complete. Moving file to lingbot-world-base-cam/high_noise_model/diffusion_pytorch_model-00002-of-00008.safetensors
+Download complete. Moving file to lingbot-world-base-cam/low_noise_model/diffusion_pytorch_model-00006-of-00008.safetensors
+Download complete. Moving file to lingbot-world-base-cam/low_noise_model/diffusion_pytorch_model-00008-of-00008.safetensors
+Download complete. Moving file to lingbot-world-base-cam/high_noise_model/diffusion_pytorch_model-00007-of-00008.safetensors
+Download complete. Moving file to lingbot-world-base-cam/high_noise_model/diffusion_pytorch_model-00001-of-00008.safetensors
+Fetching 31 files:  39%|███▊      | 12/31 [1:47:15<3:11:56, 606.12s/it]Download complete. Moving file to lingbot-world-base-cam/low_noise_model/diffusion_pytorch_model-00007-of-00008.safetensors
+Fetching 31 files:  90%|█████████ | 28/31 [1:53:53<10:24, 208.23s/it]  Download complete. Moving file to lingbot-world-base-cam/models_t5_umt5-xxl-enc-bf16.pth
+Fetching 31 files: 100%|██████████| 31/31 [1:55:50<00:00, 182.00s/it]Fetching 31 files: 100%|██████████| 31/31 [1:55:50<00:00, 224.20s/it]
+/mnt/ssd2/Projects/lingbot-world/lingbot-world-base-cam
+[2026-05-09T17:32:59+08:00] Finished robbyant/lingbot-world-base-cam
+[33m⚠️  Warning: 'huggingface-cli download' is deprecated. Use 'hf download' instead.[0m
+Fetching 21 files:   0%|          | 0/21 [00:00<?, ?it/s]Still waiting to acquire lock on lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Downloading 'README.md' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/Xn7B-BWUGOee2Y6hCZtEhtFu4BE=.f334e1d725b270c80343996b01a9df9397615ccb.incomplete'
+Downloading 'assets/teaser.png' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/assets/j_d33zCf_5xwuO4H8AgAKj94z1w=.5a5534584d6b2c42ce445930787b6a6784cf9c2d6ed4d1a78c7be3d8e15bed73.incomplete'
+Downloading 'model-00003-of-00016.safetensors' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/AwWjF2rd2yAAZyUoib4H0503mKU=.ffd22421e6c0946dd07ff0b79312a21c6ff480fc09f879f6fdccc2315f18db4c.incomplete'
+Downloading 'config.json' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/8_PA_wEVGiVa2goH2H4KQOQpvVY=.17f02f93c97190f0699126f597268a5337aa6f66.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/config.json
+Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/assets/teaser.png
+Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/README.md
+Downloading 'model-00002-of-00016.safetensors' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/IBTSJQViHKW_AWzvBd_SHkjc0PA=.3248eabb4ffdf6c7cafc445905aa22204eb011d8a6d2c189fb88ef893ab982b4.incomplete'
+Downloading 'model-00004-of-00016.safetensors' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/prewcrScFqS548bxOU4ZpduDP9Y=.c4ff3ffc721f803734ed2437b81c3851a01ae959a4be2c48ddf26aafb2fc99f8.incomplete'
+Downloading '.gitattributes' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/wPaCkH-WbT7GsmxMKKrNZTV4nSM=.596330e53191f8406a608eee7c3c5defc468db72.incomplete'
+Downloading 'model-00001-of-00016.safetensors' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/20LmoGKCo4MvemCpKnOtDmJJMFw=.6db4d3b1f7ea8fd639c4c21f30f3cda474da090d1486d018193eaf74cd0499d9.incomplete'
+Downloading 'model-00005-of-00016.safetensors' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/TAftr-n1Mc5p-VZuOS6Ah9irOI8=.fa0aafb4005f2250de58c4d66dee93c05a1c383cad5b53fd4c1f06d9a96340c7.incomplete'
+Downloading 'model-00006-of-00016.safetensors' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/WL524bGfkoVTBfbEo9S8ur2CAgU=.481ca55914787e4c5c53598286b70834d2a6f68a972240fafe3874c1e5fc8c53.incomplete'
+Downloading 'diffusion_pytorch_model.safetensors.index.json' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/VpHHFEQcyqWBKjkjOBMoMr6uTZU=.89bcee9b1c58e9b13dcdd19a0532aa04c69298db.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/.gitattributes
+Fetching 21 files:   5%|▍         | 1/21 [00:05<01:54,  5.71s/it]Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/diffusion_pytorch_model.safetensors.index.json
+Fetching 21 files:  24%|██▍       | 5/21 [00:07<00:19,  1.22s/it]Downloading 'model-00007-of-00016.safetensors' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/kYoMlOTp6ig_atJS4oV8OifWoCc=.2e5f28c3df4a34a8c3d1f18ab13bd8c8cc398e87c90aaf06dc8e3c1ee286b2c2.incomplete'
+Downloading 'model-00008-of-00016.safetensors' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/_39jKKZ8Tp-JolAfvyocLZV0NDs=.c96c36eb9b03c87ff364c4d97dd2134269422883dcb5261b12a4db5960bdd6f6.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/model-00007-of-00016.safetensors
+Downloading 'model-00009-of-00016.safetensors' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/cFQzOP_2y8cvSiOF6prCO9d48eQ=.9a60a32d6dc53a17dcea3e62bfb73ab0d54d94e152cdb37358a383d32e1106af.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/model-00009-of-00016.safetensors
+Downloading 'model-00010-of-00016.safetensors' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/UcCVl-spvKjqL7TZGaI1I7TJNQQ=.44fe1586c3c8a10dc16231c76a8365df3a93785fea126400f462052bc923a05a.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/model-00010-of-00016.safetensors
+Downloading 'model-00011-of-00016.safetensors' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/pAew9bP9ZJZkVOCzSQ53cL2ddh4=.454741a4887d309275c96e2a9568c5e019ea1ffee5caa755f1cf34d2976e5bed.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/model-00011-of-00016.safetensors
+Downloading 'model-00012-of-00016.safetensors' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/FVA-VRytWi4nXI9mm6kmmzZ4Ekk=.719044e95f053de7174ea15e3ff763b7c3175476eed1f2604de3fa96c2c22097.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/model-00012-of-00016.safetensors
+Downloading 'model-00013-of-00016.safetensors' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/SHyPR_AoAs2lMaPH_LAG0I76t1c=.830b9513f84248c36ec60ca3504fcf4c348bcc722077b08d0d06ba5c593d8a6d.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/model-00002-of-00016.safetensors
+Downloading 'model-00014-of-00016.safetensors' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/CLmU20ClBXEnTjEeiO8UrvHDviw=.1419e0cea2bae548a7bf3bac23e2e15cf08bd49e3f92c6fff0ea630e06b1744f.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/model-00013-of-00016.safetensors
+Downloading 'model-00015-of-00016.safetensors' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/QN_YVueaZE-eSwGe5vRV9oum3MA=.389ea24f4f3a971faa7c416c56b437beed294bc4e7f0f644a9d67224587b205b.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/model-00004-of-00016.safetensors
+Downloading 'model-00016-of-00016.safetensors' to 'lingbot-world-base-cam/lingbot_world_fast/.cache/huggingface/download/hjpdlaIvQm-1OBKJLRcjrD2jjuE=.741e26f28a545ab7860c13f2913ad72ede3722e5fa14ae4156760ab10ddf99f8.incomplete'
+Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/model-00003-of-00016.safetensors
+Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/model-00008-of-00016.safetensors
+Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/model-00001-of-00016.safetensors
+Fetching 21 files:  29%|██▊       | 6/21 [44:52<2:36:43, 626.93s/it]Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/model-00005-of-00016.safetensors
+Fetching 21 files:  48%|████▊     | 10/21 [49:04<55:53, 304.82s/it] Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/model-00015-of-00016.safetensors
+Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/model-00006-of-00016.safetensors
+Fetching 21 files:  52%|█████▏    | 11/21 [51:30<46:19, 277.92s/it]Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/model-00016-of-00016.safetensors
+Download complete. Moving file to lingbot-world-base-cam/lingbot_world_fast/model-00014-of-00016.safetensors
+Fetching 21 files:  90%|█████████ | 19/21 [53:53<03:32, 106.38s/it]Fetching 21 files: 100%|██████████| 21/21 [53:53<00:00, 153.97s/it]
+/mnt/ssd2/Projects/lingbot-world/lingbot-world-base-cam/lingbot_world_fast
+[2026-05-09T18:26:55+08:00] Finished robbyant/lingbot-world-fast
+[2026-05-09T18:26:55+08:00] All LingBot weight downloads complete
